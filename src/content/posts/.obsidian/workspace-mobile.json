@@ -13,11 +13,11 @@
             "state": {
               "type": "bases",
               "state": {
-                "file": "_bases/posts.base",
+                "file": "_bases/home.base",
                 "viewName": "Cards"
               },
               "icon": "lucide-layout-grid",
-              "title": "posts"
+              "title": "home"
             }
           }
         ]
@@ -132,11 +132,14 @@
       "switcher:Open quick switcher": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "homepage:Open homepage": false
+      "homepage:Open homepage": false,
+      "obsidian42-brat:BRAT": false
     }
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "_astro-suite-vault-minimal-guide.md",
+    "_bases/home.base",
     "_sleep.md",
     "_bases/posts.base",
     "Untitled 3.md",
