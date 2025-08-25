@@ -82,6 +82,8 @@ This defines a set of commands to fire once `CTRL + S` is initiated. For conveni
 
 Both of these work together so you're default screen is a `.base` file that's a directory of all of your blog posts, listed in reverse-chronological order. You're able to customize the note properties in the views to your liking. 
 
+The Base is nested within a folder called `_bases` because Astro will ignore files and folders with an underscore prefix, letting you use this for Obsidian without processing it for the live site.
+
 ### Minimal Theme Settings, Disable Tabs, and Hider
 
 As mentioned earlier, these plugins keep you focused and distraction-free while allowing for customization of your experience. 
