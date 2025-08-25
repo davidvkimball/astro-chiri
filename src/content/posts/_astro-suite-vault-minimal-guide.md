@@ -64,6 +64,7 @@ Community plugins enabled:
 - Homepage
 - Image Inserter
 - Minimal Theme Settings
+- mdx as md
 - Paste image rename
 
 ### Astro Composer 
@@ -98,6 +99,10 @@ Pull in images from Unsplash or other sources easily with just a few keystrokes.
 ### Disable Tabs
 
 This effectively makes it so opening any new tab replaces the current one only. Especially nice for when you're hiding the tab bar and don't want multiple tabs. When combined with the Homepage and New Default Tab plugins, `CTRL + T` and `CTRL + M` essentially do the same thing.
+
+### mdx as md
+
+This is just for any Astro theme that uses `.mdx` in addition to `.md`, such as Chiri. Unfortunately there's not yet a way to have Bases read properties from `.mdx` files so while the files themselves will appear, the file's properties won't appear on the homepage `.base` view. 
 
 ### BRAT (Temporary)
 
